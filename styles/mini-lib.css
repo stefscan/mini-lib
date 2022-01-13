@@ -97,19 +97,6 @@ article{
     flex-basis: 100%;
 }
 
-/* Grille v1 */
-.demi-col{
-    flex-basis: 48%;
-}
-
-.tier-col{
-    flex-basis: 32%;
-}
-
-.quart-col{
-    flex-basis: 23%;
-}
-
 /*-------------------*/
 
 /* Couleurs */
@@ -197,16 +184,6 @@ article{
  
     .conteneur{
         width: 85%;
-    }
-
-    /* ancienne grille */
-
-    .tier-col{
-        flex-basis: 48%;
-    }
-
-    .quart-col{
-        flex-basis: 48%;
     }
 
  }
