@@ -161,20 +161,50 @@ article{
 
 /* Composants */
 
-.btn{
+.menu{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1px;
+}
+
+.menu li{
     display: block;
-    padding: 5px 8px;
-    background-color: #222;
-    color: #eee;
-    transition: all 300ms ease;
+    flex-grow: 1;
 }
 
 .btn{
+    display: block;
+    padding: 8px 8px;
+    background-color: #222;
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.btn-clr-p{
+    background-color: var(--clr-principale);
+    color: #eee;
+}
+
+.btn-clr-a{
+    background-color: var(--clr-accent);
+    color: var(--clr-principale);
+}
+
+.btn:hover{
     background-color: #efefef;
     color: #222;
 }
 
 /* Responsive */
+
+
+/* Tablette */
 
 @media screen and (max-width: 1024px) {
    
@@ -200,6 +230,7 @@ article{
 
  }
 
+ /* Mobile */
 
 @media screen and (max-width: 768px) {
 
