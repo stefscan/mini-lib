@@ -164,6 +164,8 @@ article{
 .btn{
     display: block;
     padding: 5px 8px;
+    background-color: #222;
+    color: #eee;
 }
 
 
