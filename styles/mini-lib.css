@@ -159,6 +159,13 @@ article{
     padding: 30px;
 }
 
+/* Composants */
+
+.btn{
+    display: block;
+    padding: 5px 8px;
+}
+
 
 /* Responsive */
 
